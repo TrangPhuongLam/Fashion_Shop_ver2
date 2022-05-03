@@ -1,4 +1,4 @@
-package config;
+package com.fashionShop.config;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
