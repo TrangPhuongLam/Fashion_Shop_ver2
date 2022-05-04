@@ -39,6 +39,9 @@ public class Product {
 	@Column(name = "amount", columnDefinition = "INT")
 	private int amount;
 	
+	@Column(name = "image", columnDefinition = "VARCHAR(255)")
+	private String image;
+	
 	@ManyToMany(mappedBy = "products")
 	private List<ShoppingCart> shoppingCarts = new ArrayList<ShoppingCart>();
 
